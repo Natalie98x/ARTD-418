@@ -1,66 +1,169 @@
-<!DOCTYPE html>	
-	<html>
-	<head>
-	<!--css-->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<!--library-->
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-	</head>
-	<body>
-	<h1> Hello world </h1>
-	<div class="container">
-	<!--First Row-->
-	<div class="row">
-	<div class="col-6" style="background: red">
-	Col 1
-	</div>
-	</div>
-	<!--Second Row-->
-	<div class="row">
-	<div class="col-6" style="background: orange">
-	</div>
-	</div>
-	<!--Third Row-->
-	<div class="row">
-	<div class="col-6" style="background: yellow">
-	</div>
-	</div>
-	<!--Fourth Row-->
-	<div class="row">
-	<div class="col-6" style="background: green">
-	</div>
-	</div>	
-		<!--Fifth Row-->
-	<div class="row">
-	<div class="col-6" style="background: blue">
-	</div>
-	</div>	
-		<!--Sixth Row-->
-	<div class="row">
-	<div class="col-6" style="background: purple">
-	</div>
-	</div>	
-		<!--Seventh Row-->
-	<div class="row">
-	<div class="col-6" style="background: pink">
-	</div>
-	</div>	
-<!--Eight Row-->
-	<div class="row">
-	<div class="col-6" style="background: grey">
-	</div>
-	</div>	
-<!--Ninth Row-->
-	<div class="row">
-	<div class="col-6" style="background: brown">
-	</div>
-	</div>	
-<!--Tenth Row-->
-	<div class="row">
-	<div class="col-6" style="background: blue">
-	</div>
-	</div>	
-	</body>
-	</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- libraries -->
+    <script src="libs/anime.min.js" type="text/javascript"></script>
+
+    <!-- css style -->
+    <link rel="stylesheet" href="css/myStyles.css">
+
+    <!-- bootstrap style -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+    <div class="container" style="padding-top: 30px">
+        <a href="https://animejs.com/" target="_blank">
+            <h1>Guide to anime.js</h1>
+        </a>
+        <hr>
+    </div>
+    <div class="container">
+
+        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors" target="_blank">
+            <h2>CSS Selectors </h2>
+        </a>
+        <div class="row" style="background-color: rgb(204, 204, 204)">
+            <div class="col">
+                <h3>CSS Selector
+                </h3>
+            </div>
+            <div class="col">
+                <h3>CSS</h3>
+            </div>
+            <div class="col">
+                <h3>HTML</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                Tag name
+            </div>
+            <div class="col">
+                h1 { color: red; }
+            </div>
+            <div class="col">
+                < h1> Top Headings
+                    < /h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                Class Attribute
+            </div>
+            <div class="col">
+                .large { font-size: 16pt; }
+            </div>
+            <div class="col">
+                < p class="large">...
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                Tag and Class
+            </div>
+            <div class="col">
+                p.large {...}
+            </div>
+            <div class="col">
+                < p class="large">...
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                Element ID
+            </div>
+            <div class="col">
+                #p20 { font-weight: bold; }
+            </div>
+            <div class="col">
+                < p id="p20">...
+            </div>
+        </div>
+        <hr>
+    </div>
+
+    <!--EXAMPLES-->
+
+    <div class="container">
+        <h2>Examples</h2>
+        <!-- by css class -->
+        <div class="row1">
+            <div class="txt"> Class name </div>
+        </div>
+
+        <!-- by id  -->
+        <div class="row1">
+            <div id="id_1"> Element Id </div>
+        </div>
+
+        <!-- by Tag -->
+        <div class="row1">
+            <p class="txt2">Class name / query selector</p>
+        </div>
+
+        <div class="row1">
+            <svg class="box" width="800" height="180">
+                <rect x="0" y="0" width="40" height="40" />
+            </svg>
+
+        </div>
+        <div class="row1">
+            <svg class="box2" id="secondBox" width="800" height="180">
+                <rect x="0" y="0" width="40" height="40" />
+            </svg>
+        </div>
+
+        <hr>
+    </div>
+
+    <!--TRANSFORMATIONS-->
+    <div class="container">
+
+        <a href="https://animejs.com/documentation/#CSStransforms">
+            <h2>Transformations</h2>
+        </a>
+
+        <div class="row">
+            <svg class="box3" width="800" height="180">
+                <rect x="0" y="0" width="60" height="60" fill="blue"/>
+            </svg>
+        </div>
+        <hr>
+    </div>
+
+    <!--PROPERTIES-->
+    <div class="container">
+
+        <a href="https://animejs.com/documentation/#duration">
+            <h2>Properties & Animation</h2>
+        </a>
+
+        <div class="row">
+            <img class="image" src="img/icon.png" width="30" height="30">
+        </div>
+        <hr>
+    </div>
+
+    <div class="container">
+        <h2>References</h2>
+        <div class="row">
+
+            <a href="https://medium.com/@ajmeyghani/creating-javascript-animations-with-anime-js-f2b14716cdc6">Example 1</a>
+        </div>
+    </div>
+
+    <!--javaScript code -->
+    <script src="src.js"></script>
+
+</body>
+
+</html>

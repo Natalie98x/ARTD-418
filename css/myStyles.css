@@ -1,0 +1,19 @@
+.txt {
+    position: relative;
+    color: brown
+}
+
+.row {
+    height: 40px;
+    margin: 5px;
+}
+
+.row1 {
+    height: 40px;
+    background-color: antiquewhite;
+    margin: 5px;
+}
+
+.image {
+    opacity: 0.5;
+}
